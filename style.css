@@ -1,0 +1,120 @@
+/*colores*/
+* {
+
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--DarkGrey: hsl(0, 0%, 12%);
+--OffBlack: hsl(0, 0%, 8%);
+}
+body{
+    background-color: var(--OffBlack);
+}
+.info1{
+    background-color: var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 25px;
+    margin-top: 30px;
+}
+.information{
+    img{
+        border-radius: 100px;
+        margin-top: 10px;
+    }
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    p{
+        margin-bottom: 40px;
+        color: var(--White);
+        font-style: italic;
+        font-size: 14px;
+    }
+    H1{
+        color: var(--White);
+        font-family: "Inter", sans-serif;
+        font-size: 30px;
+    }
+    H2{
+        color: var(--White);
+        font-family: "Inter", sans-serif;
+        font-size: 16px;
+        color: var(--Green);
+    }
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    a { 
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+}
+.one{
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: var(--DarkGrey);
+    background-color: var(--Grey);
+    font-family: "Inter", sans-serif;
+    font-size: small;
+}
+.two {
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: var(--DarkGrey);
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    background-color: var(--Grey);
+}
+.three {
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: var(--DarkGrey);
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    background-color: var(--Grey);
+}
+
+.four{
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: var(--DarkGrey);
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    background-color: var(--Grey);
+}
+
+.five{
+    margin-bottom: 20px;
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: var(--DarkGrey);
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: small;
+    background-color: var(--Grey);
+}
+.numbers div:hover{
+ background-color: var(--Green);
+ cursor: pointer;
+}
+
+
